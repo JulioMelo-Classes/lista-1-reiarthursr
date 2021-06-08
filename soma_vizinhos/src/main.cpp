@@ -11,6 +11,26 @@ using std::endl;
 int main( void )
 {
     // TODO: Adicione seu código aqui. 
+    while(1)
+    {
+        int m, n, npos=0, res=0;
+
+        cin >> m;
+        cin >> n;
+
+        if(n>0) npos=n;
+        else if(n<0) npos=-n;
+
+        for (int i = 0; i < npos; i++)
+        {
+            res += m;
+
+            if(n>0) m++;
+            else if(n<0) m--;
+        }
+
+        cout << res << endl;
+    }
 
     return 0;
 }
