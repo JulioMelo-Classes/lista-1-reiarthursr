@@ -8,6 +8,7 @@ using std::cout;
 using std::cin;
 using std::endl;
 
+/*loop infinito durante os testes, mas vou condierar 50%*/
 int main( void )
 {
     // TODO: Adicione seu código aqui. 

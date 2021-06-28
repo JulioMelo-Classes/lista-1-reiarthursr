@@ -4,6 +4,7 @@ using std::cout;
 
 const int SIZE = 5; // input size.
 
+/*ok, não precisava de um vetor*/
 int main(void)
 {
     // TODO: Adicione aqui seu código.
